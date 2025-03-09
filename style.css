@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Knewave", system-ui;
+}
+
+.container-header {
+    background-color: #EEF04B;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+.container-header .item.h1 img {
+    height: 50px; 
+    width: auto; 
+    margin-left: 10px;
+}
+.h1{
+    font-size: 10px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;              
+    margin: 20px 0;    
+    justify-content: center;
+}
+.item img{
+    width: 500px;
+}
+.item p{
+    font-size: 20px;        
+    line-height: 1.5;       
+    max-width: 600px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2 a {
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    border: black;
+}
+
+a ion-icon {
+    font-size: 75%;
+}
+
+a {
+    border: black;
+}
+
+nav a {
+    padding: 5px 5px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+.h3 {
+    border: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+.h3:hover {
+    color: white;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    flex-grow:1 ;
+    font-size: 12px;
+}
+
+.container-main {
+    font-size: 1px; /* Ajuste o valor do tamanho da fonte para algo mais específico */
+    line-height: 1.5; /* Ajuste o espaçamento entre as linhas */
+}
+.m1{
+    font-size: 20px;
+}
+
+.m2{
+    font-size: 20px;
+}
+.m3{
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+    font-size: 10px;
+}
+.f1{
+    text-align: center;
+    justify-content: center;
+}
+.copyright{
+    font-size: 20px;
+}
